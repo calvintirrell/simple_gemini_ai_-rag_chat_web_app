@@ -2,6 +2,8 @@
 
 A small, hands-on project for learning **Retrieval-Augmented Generation (RAG)**. Two Gradio chat apps that recommend GPUs from a tiny vector database, with semantic search, metadata filtering, and (in the improved version) Pydantic-structured LLM output and agentic tool calling.
 
+The data in the ChromaDB vector database aren't 100% accurate. Just quick sample data I used for this project. You can use cars, food, airplanes, cities, etc.
+
 Built with:
 - **[ChromaDB](https://www.trychroma.com/)** — local vector database (embeddings handled for you)
 - **[Google Gemini](https://ai.google.dev/)** — LLM for re-ranking and reasoning
